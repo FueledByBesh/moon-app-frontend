@@ -1,15 +1,15 @@
 <script setup></script>
 
 <template>
-  <main>
-    <div>This is Home Component</div>
-  </main>
+  <div id="wrapper">
+    <div>Hello world</div>
+  </div>
 </template>
 
 <style scoped>
-main {
+#wrapper {
+  height: 75px;
   width: 100%;
-  height: 50%;
   background-color: red;
 }
 </style>
